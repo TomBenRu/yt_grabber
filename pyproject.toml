@@ -12,3 +12,8 @@ dependencies = [
 [project.optional-dependencies]
 metadata = ["mutagen"]
 thumbnail = ["pillow"]
+
+[dependency-groups]
+dev = [
+    "auto-py-to-exe>=2.48.1",
+]
